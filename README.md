@@ -2,7 +2,7 @@
 
 
 
-A collection of advanced AI agents and conversational bots built with \*\*LangChain\*\*, \*\*LangGraph\*\*, and \*\*Streamlit\*\*. This repository contains two distinct projects showcasing different agentic architectures.
+A collection of advanced AI agents and conversational bots built with LangChain, LangGraph, and Streamlit. This repository contains two distinct projects showcasing different agentic architectures.
 
 
 
