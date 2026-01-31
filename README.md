@@ -1,4 +1,4 @@
-\# 🤖 Multi-Agent AI Suite
+#  Multi-Agent AI Suite
 
 
 
@@ -10,75 +10,48 @@ A collection of advanced AI agents and conversational bots built with \*\*LangCh
 
 
 
-\## 📂 Project Directory
+##  Project Directory
 
 
 
-Multi-Agent-System/
-
-  app.py              - Streamlit UI \& Entry Point
-
-  agents.py           - Logic for Gatekeeper, Scout, and Analyst nodes
-
-  graph.py            - LangGraph workflow definition and state machine
-
-  state.py            - TypedDict defining the shared agent memory
-
-  tools.py            - Search tools for real-time data retrieval
-
-  requirements.txt    - Python dependencies
-
-  README.md           - Project documentation
-
-  sports\_analysis.ipynb - Reproducibility notebook
+#### Multi-Agent-System/
+  - &nbsp;app.py              - Streamlit UI \& Entry Point
+  - &nbsp;agents.py           - Logic for Gatekeeper, Scout, and Analyst nodes
+  - &nbsp;graph.py            - LangGraph workflow definition and state machine
+  - &nbsp;state.py            - TypedDict defining the shared agent memory
+  - &nbsp;tools.py            - Search tools for real-time data retrieval
+  - &nbsp;requirements.txt    - Python dependencies
+  - &nbsp;README.md           - Project documentation
+  - &nbsp;sports\_analysis.ipynb - Reproducibility notebook
 
 
-
-
-
-
-
-Conversational-Knowledge-Bot/
-
-&nbsp; main.py           - Streamlit UI \& Application Logic 
-
-&nbsp; bot.py            - Agent Factory, LLM configuration, and Tools
-
-&nbsp; requirements.txt  - Python dependencies with versions
-
-&nbsp; README.md         - Documentation (Architecture, Setup, Usage)
-
+#### Conversational-Knowledge-Bot/
+- &nbsp; main.py           - Streamlit UI \& Application Logic 
+- &nbsp; bot.py            - Agent Factory, LLM configuration, and Tools
+- &nbsp; requirements.txt  - Python dependencies with versions
+- &nbsp; README.md         - Documentation (Architecture, Setup, Usage)
 &nbsp;
 
+---
+### 1.  Multi-Agent-System : Sports Intelligence System
+
+- A multi-agent workflow that validates, researches, and analyzes sports entities in real-time
+- Architecture: Hierarchical (Gatekeeper -> Scout -> Analyst).
+- Key Tech: LangGraph, Groq Llama 3, DuckDuckGo Search.
+
+- [Go to Project Folder](./Multi-Agent-System-using-langchain)
 
 
 
+### 2.  Conversational Knowledge Bot
 
+- A persistent chat agent with long-term memory and web-searching capabilities.
 
+- Architecture: Stateful Agent Executor with Checkpointing.
 
+- Key Tech: Cohere, LangGraph Memory, DuckDuckGo.
 
-
-\### 1.  Sports Intelligence System
-
-A multi-agent workflow that validates, researches, and analyzes sports entities in real-time
-
-\* \*\*Architecture:\*\* Hierarchical (Gatekeeper -> Scout -> Analyst).
-
-\* \*\*Key Tech:\*\* LangGraph, Groq Llama 3, DuckDuckGo Search.
-
-\* \*\*\[Go to Project Folder](./SPORTS-AGENT-PROJECT)\*\*
-
-
-
-\### 2.  Conversational Knowledge Bot
-
-A persistent chat agent with long-term memory and web-searching capabilities.
-
-\* \*\*Architecture:\*\* Stateful Agent Executor with Checkpointing.
-
-\* \*\*Key Tech:\*\* Cohere, LangGraph Memory, DuckDuckGo.
-
-\* \*\*\[Go to Project Folder](./CHATBOT-AI)\*\*
+- [Go to Project Folder](./Conversational-Knowledge-Bot)
 
 
 
@@ -86,25 +59,30 @@ A persistent chat agent with long-term memory and web-searching capabilities.
 
 
 
-\##  Quick Start (Root Setup)
+##  Quick Start (Root Setup)
 
 
 
-\### Prerequisites
+### Prerequisites
 
-\- Python 3.9+
+- Python 3.9+
 
-\- API Keys: Groq, Cohere, or Google (depending on the project you run)
+- API Keys: Groq, Cohere, or Google (depending on the project you run)
 
 
 
-\### Global Installation
+### Global Installation
+
+To clone this repo: 
+```bash
+git clone https://github.com/prasad-j155/Soulpage-genai-assignment-Prasad-J.git
+```
 
 To install the dependencies for both projects at once:
 
 ```bash
 
-pip install -r SPORTS-AGENT-PROJECT/requirements.txt
+pip install -r Multi-Agent-System-using-langchain/requirements.txt
 
-pip install -r CHATBOT-AI/requirements.txt
+pip install -r Conversational-Knowledge-Bot/requirements.txt
 
